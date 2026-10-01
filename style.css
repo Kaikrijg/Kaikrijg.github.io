@@ -1,0 +1,166 @@
+
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 8px;
+    text-align: left;
+    border: 2px solid rgb(0, 00, 00);
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+#b{
+    height: auto;
+    width: 50px;
+    border-radius: 0%;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar a {
+    margin: 5px;
+    padding: 6px 10px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid rgb(0, 00, 00);
+    background-color: #f7f3f3;
+    border-radius: 5px;    
+}
+
+.navbar a:hover {
+    background-color: rgb(242, 7, 7);
+    color: rgb(0, 0, 0);
+}
+
+.navbar{
+    transition-duration: 0.1;
+}
+
+
+
+
+img{
+    width: 80%;
+    float: none;
+}
+
+main,
+aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 46%;
+}
+
+aside {
+    width: 50%;
+    margin-left: 3%;
+}
+
+p{
+    text-align: left;
+    font-size: 20px;
+    width: 99%;
+    
+}
+h2{
+    text-align: left;
+}
+
+#project-foto {
+    width: 210px;
+    height: auto;
+    Margin-left: 45px;
+
+}
+#h2vanproject{
+    text-align: center;
+    
+}
+
+#projecten{
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    height: 368px;
+    margin-top: 40px;
+    margin-right: 2%;
+    border: 2px solid rgb(0, 00, 00);
+    border-radius: 5px;
+}
+
+#project-tekst{
+    margin-left: 5px;
+}
+
+
+.vaardigheden{
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    margin-top: 40px;
+    border: 2px solid rgb(0, 00, 00);
+    border-radius: 5px;
+    height: 368px;
+    margin-left: 130px;
+}
+
+#h2vh{
+    text-align: center;
+}
+#vaardigheden-foto{
+    width: 250px;
+    height: auto;
+    Margin-left: 40px;
+}
+
+#vaardigheden-tekst{
+   margin-left: 5px;
+}
+
+.progameer-toekomst{
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+    margin-top: 40px;
+    border: 2px solid rgb(0, 00, 00);
+    border-radius: 5px;
+    height: 368px;
+    margin-left: 130px;
+}
+
+#progameren-foto{
+    margin-left: 30px;
+}
+
+#contacten{
+    background-color: #eae4e4;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display:block;
+}
+
+#progameer-tekst{
+    text-align: center;
+}
+
+#h2pt{
+    text-align: center;
+}
+
+@media (min-width:600px){
+    .vaardigheden{grid-area: 1 / span 3 ;}
+    .progameer-toekomst{grid-area: 1 / span 3;}
+}
+
+#con{
+    text-align: right;
+}
