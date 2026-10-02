@@ -1,0 +1,46 @@
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 8px;
+    text-align: left;
+    border: 2px solid rgb(0, 00, 00);
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+#b{
+    height: auto;
+    width: 50px;
+    border-radius: 0%;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar a {
+    margin: 5px;
+    padding: 6px 10px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid rgb(0, 00, 00);
+    background-color: #f7f3f3;
+    border-radius: 5px;    
+}
+
+.navbar a:hover {
+    background-color: rgb(242, 7, 7);
+    color: rgb(0, 0, 0);
+}
+
+.navbar{
+    transition-duration: 0.1;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
