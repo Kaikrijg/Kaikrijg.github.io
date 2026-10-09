@@ -9,7 +9,6 @@ h1 {
     margin-bottom: 20px;
     padding: 8px;
     text-align: left;
-    border: 2px solid rgb(0, 00, 00);
     position: sticky;
     top: 0;
     background-color: blue;
@@ -19,6 +18,8 @@ h1 {
     height: auto;
     width: 50px;
     border-radius: 50%;
+    border: none;
+    box-shadow: none;
     margin-right: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -58,6 +59,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     margin-left: 5%;
+    box-shadow: 0 0 10px black;
 }
 
 #tekst-gamen{
@@ -86,6 +88,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     margin-left: 5%;
+    box-shadow: 0 0 10px black;
 
 }
 
@@ -112,6 +115,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     margin-left: 5%;
+    box-shadow: 0 0 10px black;
     
 }
 
@@ -134,4 +138,12 @@ h1 {
     width: 310px;
 height: 155px;
 display: block;
+}
+
+#contacten{
+    background-color: #eae4e4;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display:block;
 }
