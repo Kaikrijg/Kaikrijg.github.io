@@ -1,43 +1,36 @@
 .navbar {
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 20px;
     padding: 8px;
-    text-align: left;
     position: sticky;
     top: 0;
-    background-color: blue;
+    background: blue;
 }
 
-#b{
-    height: auto;
+#b {
     width: 50px;
     border-radius: 50%;
+    border: none;
+    box-shadow: none;
     margin-right: 10px;
-    display: inline-block;
     vertical-align: middle;
 }
 
 .navbar a {
     margin: 5px;
     padding: 6px 10px;
-    color: black;
-    font-size: 16px;
+    color: #000;
     text-decoration: none;
-    border: 2px solid rgb(0, 00, 00);
-    background-color: #f7f3f3;
-    border-radius: 5px;    
+    background: #f7f3f3;
+    border-radius: 5px;
 }
 
-.navbar a:hover {
-    background-color: rgb(242, 7, 7);
-    color: rgb(0, 0, 0);
+.navbar a:hover,
+#knop:hover,
+#git:hover {
+    background: rgb(242, 7, 7);
+    color: #000;
 }
-
-.navbar{
-    transition-duration: 0.1;
-}
-
 
 .row {
     display: flex;
@@ -84,4 +77,13 @@ th, td {
 
 #h1vaardigheden{
     text-align:center;
+}
+
+
+#contacten{
+    background-color: #eae4e4;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display:block;
 }
