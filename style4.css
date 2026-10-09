@@ -4,7 +4,6 @@
     margin-bottom: 20px;
     padding: 8px;
     text-align: left;
-    border: 2px solid rgb(0, 00, 00);
     position: sticky;
     top: 0;
     background-color: blue;
@@ -77,5 +76,12 @@ th, td {
 }
 
 .td{
+    text-align:center;
+}
+#p2{
+    text-align:center;
+}
+
+#h1vaardigheden{
     text-align:center;
 }
