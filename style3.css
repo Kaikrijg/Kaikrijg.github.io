@@ -1,4 +1,8 @@
-
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .navbar {
     width: 100%;
@@ -12,6 +16,8 @@
 #b {
     width: 50px;
     border-radius: 50%;
+    border: none;
+    box-shadow: none;
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -21,7 +27,6 @@
     padding: 6px 10px;
     color: #000;
     text-decoration: none;
-    border: 2px solid #000;
     background: #f7f3f3;
     border-radius: 5px;
 }
@@ -57,7 +62,7 @@
 }
 
 .form{
-    width: 50%;
+    width: 100%;
 }
 #form1 {
     display: flex;
@@ -127,6 +132,14 @@
 }
 
 .info{
-    width: 50%;
+    width: 100%;
 }
 
+
+#contacten{
+    background-color: #eae4e4;
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    display:block;
+}
