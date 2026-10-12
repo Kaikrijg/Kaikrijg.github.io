@@ -193,3 +193,10 @@ main{
     margin-right: -90px;
 }
 
+@media (max-width: 700px) {
+    main,
+    aside {
+        display: block;
+        width: 100%;
+    }
+}
