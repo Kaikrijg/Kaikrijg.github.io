@@ -57,13 +57,19 @@ aside {
     vertical-align: top;
 }
 
+#f1{
+    height: 295px;  
+    margin-left: 75px;
+    border: 2px solid rgb(0, 00, 00);
+}
+
 main {
     width: 46%;
 }
 
 aside {
     width: 50%;
-    margin-left: 3%;
+    margin-right: 3%;
 }
 
 p{
@@ -184,5 +190,6 @@ main{
     display: inline-block;
     justify-content: center;
     align-items: center;
+    margin-right: -90px;
 }
 
