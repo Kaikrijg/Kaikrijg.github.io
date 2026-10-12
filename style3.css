@@ -143,3 +143,10 @@ body {
     margin-top: auto;
     display:block;
 }
+
+@media (max-width: 700px) {
+    .div0 {
+        flex-direction: column;
+        
+    }
+}
