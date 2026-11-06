@@ -32,11 +32,27 @@ function getCookie(cname) {
 function checkCookie() {
   let username = getCookie("username");
   if (username != "") {
-   alert("Welcome again " + username);
+   alert("Welkom terug " + username);
   } else {
-    username = prompt("Please enter your name:", "");
+    username = prompt("Wat is uw naam?", "");
     if (username != "" && username != null) {
       setCookie("username", username, 365);
     }
   }
 }
+
+
+
+
+const uur = new Date().getHours();
+
+if (uur >= 6 && uur < 12) {
+  alert("Goedemorgen"  );
+} else if (uur >= 12 && uur < 18) {
+  alert("Goedemiddag"  );
+} else if (uur >= 18 && uur < 23) {
+  alert("Goedenavond"  );
+} else {
+  alert("Goedenacht"  );
+}
+
