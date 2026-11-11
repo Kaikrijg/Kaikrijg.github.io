@@ -7,11 +7,16 @@ body {
 .navbar {
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: -20px;
     padding: 8px;
+    text-align: left;
     position: sticky;
     top: 0;
-    background: blue;
+    background-color: blue;
 }
+
+
 
 #b {
     width: 50px;
