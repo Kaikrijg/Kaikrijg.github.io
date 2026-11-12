@@ -4,18 +4,18 @@
     <title>Portfolio van Kai</title>
     <link rel="stylesheet" href="style.css">
     <script src="javascript/scriptindex.js" defer></script>
-
+    <script src="allePagina.js" defer></script>
 </head>
 
 <body onload="checkCookie()">
    
     <nav class="navbar">
         <img id="b" src="foto's/b.jpg" alt="Hypercar van BMW">
-        <a href="index.html">Home</a>
-        <a href="index.html#projecten">Projecten</a>
-        <a href="Contacten.html">Contact</a>
-        <a href="hobby's.html">Hobby's</a>
-        <a href="vaardigheden.html">Vaardigheden</a> 
+        <a onclick="indexlog()" href="index.html">Home</a>
+        <a onclick="projectenlog()" href="index.html#projecten">Projecten</a>
+        <a onclick="contactlog()" href="Contacten.html">Contact</a>
+        <a onclick="hobbylog()" href="hobby's.html">Hobby's</a>
+        <a onclick="vaardighedenlog()" href="vaardigheden.html">Vaardigheden</a>
     </nav>
 
     <div class="intro">
@@ -56,7 +56,7 @@
 </section>
 
 <section class="vaardigheden">
-    <a href="vaardigheden.html">
+    <a onclick="vaardighedenlog()" href="vaardigheden.html">
         <img id="vaardigheden-foto" src="foto's/skills.jpg" alt="Overzicht van vaardigheden">
     </a>
     <h2 id="h2vh">Vaardigheden</h2>
@@ -81,7 +81,7 @@
 
 
 <footer id="contacten">
-    <a href="Contacten.html">Contact</a>
+    <a onclick="contactlog()" href="Contacten.html">Contact</a>
     <p id="con"> © 2026 Kai Krijgsman</p>
 </footer>
 
