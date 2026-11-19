@@ -2,6 +2,7 @@
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
+  console.log("andere kleur")
 }
 
 
@@ -41,9 +42,6 @@ function checkCookie() {
   }
 }
 
-
-
-
 const uur = new Date().getHours();
 
 if (uur >= 6 && uur < 12) {
@@ -55,4 +53,5 @@ if (uur >= 6 && uur < 12) {
 } else {
   alert("Goedenacht"  );
 }
+
 
