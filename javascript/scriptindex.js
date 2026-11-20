@@ -7,38 +7,21 @@ function myFunction() {
 
 
 
-function setCookie(cname, cvalue, exdays) {
-  const d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  let expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-  let name = cname + "=";
-  let decodedCookie = decodeURIComponent(document.cookie);
-  let ca = decodedCookie.split(';');
-  for(let i = 0; i <ca.length; i++) {
-    let c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
 function checkCookie() {
-  let username = getCookie("username");
-  if (username != "") {
-   alert("Welkom terug " + username);
+  document.cookie = "username=; max-age=0; path=/";
+
+  if (document.cookie.includes("cookieToestemming=")) {
+    return;
+  }
+
+  let toestemming = confirm("Deze website gebruikt cookies. Wil je cookies toestaan? Kies OK voor ja of Annuleren voor nee.");
+
+  if (toestemming) {
+    document.cookie = "cookieToestemming=ja; max-age=31536000; path=/";
+    console.log("toesteming ja")
   } else {
-    username = prompt("Wat is uw naam?", "");
-    if (username != "" && username != null) {
-      setCookie("username", username, 365);
-    }
+    document.cookie = "cookieToestemming=nee; max-age=31536000; path=/";
+    console.log("toesteming nee")
   }
 }
 
@@ -53,5 +36,4 @@ if (uur >= 6 && uur < 12) {
 } else {
   alert("Goedenacht"  );
 }
-
 
