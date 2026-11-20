@@ -70,7 +70,7 @@ h1 {
 
 #fgames{
     width: 310px;
-    height: 280px;
+    height: 400px;
     display: block;
   
 }
@@ -120,6 +120,23 @@ h1 {
     
 }
 
+.hobby-boxen {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+.games,
+.motorsport {
+    display: flex;
+    flex-direction: column;
+}
+
+#fgames,
+#bmw {
+    margin-top: auto;
+}
+
 #fer{
     width: 310px;
     height: auto;
@@ -137,7 +154,7 @@ h1 {
 
 #bmw{
     width: 310px;
-height: 155px;
+height: 280px;
 display: block;
 }
 
@@ -151,6 +168,10 @@ display: block;
 }
 
 @media (max-width: 700px) {
+    .hobby-boxen {
+        grid-template-columns: 1fr;
+    }
+
     .games{
         width: 100%;
         margin-left: 0;
