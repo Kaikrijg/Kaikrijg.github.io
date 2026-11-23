@@ -1,4 +1,10 @@
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .navbar a:hover,
 #knop:hover,
 #git:hover {
@@ -81,4 +87,9 @@
         width: 100%;
         margin-bottom: 20px;
     }
+}
+
+body #contacten {
+    margin-top: auto;
+    margin-bottom: -20;
 }
