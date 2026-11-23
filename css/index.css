@@ -1,50 +1,5 @@
 
 
-.navbar {
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    margin-top: -20px;
-    padding: 8px;
-    text-align: left;
-    position: sticky;
-    top: 0;
-    background-color: blue;
-}
-
-#b{
-    height: auto;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    box-shadow: none;
-    margin-right: 10px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.navbar a {
-    margin: 5px;
-    padding: 6px 10px;
-    color: black;
-    font-size: 16px;
-    text-decoration: none;
-    border: 2px solid rgb(0, 00, 00);
-    background-color: #f7f3f3;
-    border-radius: 5px;    
-}
-
-.navbar a:hover {
-    background-color: rgb(242, 7, 7);
-    color: rgb(0, 0, 0);
-}
-
-.navbar{
-    transition-duration: 0.1;
-}
-
-
-
 
 img{
     width: 80%;
@@ -136,6 +91,13 @@ h2{
 
 #vaardigheden-tekst{
    margin-left: 5px;
+   text-align: center;
+}
+
+#vaardigheden-lijst{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
 }
 
 .progameer-toekomst{
@@ -159,11 +121,13 @@ h2{
 
 #contacten{
     background-color: #eae4e4;
-    width: 100%;
+    width: 101.3%;
     height: auto;
     margin-top: 40px;
     display:block;
     margin-bottom: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #progameer-tekst{
