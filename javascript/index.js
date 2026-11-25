@@ -1,11 +1,4 @@
 
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-  console.log("andere kleur")
-}
-
-
 
 function checkCookie() {
   document.cookie = "username=; max-age=0; path=/";
@@ -28,12 +21,12 @@ function checkCookie() {
 const uur = new Date().getHours();
 
 if (uur >= 6 && uur < 12) {
-  alert("Goedemorgen"  );
+  alert("Goedemorgen");
 } else if (uur >= 12 && uur < 18) {
-  alert("Goedemiddag"  );
+  alert("Goedemiddag");
 } else if (uur >= 18 && uur < 23) {
-  alert("Goedenavond"  );
+  alert("Goedenavond");
 } else {
-  alert("Goedenacht"  );
+  alert("Goedenacht");
 }
 
