@@ -18,3 +18,11 @@ function hobbylog(){
 function vaardighedenlog(){
   console.log("Is naar Vaardigheden gegaan");
 }
+
+
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  console.log("andere kleur")
+}
